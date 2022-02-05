@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(#0000ff, #ffc0cb);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+body h1 {
+  padding-bottom: 30px;
+}
+
+.container {
+  height: 100%;
+  width: 30%;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.container input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.container label {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  background-size: 45px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 30px 40px;
+  font-size: 16px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.container input[type="radio"]:checked + label {
+  background-color: #ffc8dd;
+}
+
+label[for="right_bottom"] {
+  background-image: url("https://img.icons8.com/nolan/344/down-right-arrow--v2.png");
+}
+label[for="left_top"] {
+  background-image: url("https://img.icons8.com/nolan/344/up-left-arrow--v1.png ");
+}
+label[for="top"] {
+  background-image: url("https://img.icons8.com/nolan/344/thick-arrow-pointing-up--v2.png");
+}
+label[for="right_top"] {
+  background-image: url("https://img.icons8.com/nolan/344/up-right-arrow--v1.png");
+}
+label[for="left"] {
+  background-image: url("https://img.icons8.com/nolan/344/left.png");
+}
+label[for="bottom"] {
+  background-image: url("https://img.icons8.com/nolan/344/thick-arrow-pointing-down--v2.png ");
+}
+label[for="left_bottom"] {
+  background-image: url("https://img.icons8.com/nolan/344/down-left-arrow--v2.png ");
+}
+label[for="right"] {
+  background-image: url("https://img.icons8.com/nolan/344/right--v1.png");
+}
+
+footer {
+  margin-top: 400px;
+}

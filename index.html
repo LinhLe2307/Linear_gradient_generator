@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Linear gradient generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Linear gradient generator</h1>
+      <h3>Colors</h3>
+      <form>
+        <input class="color1" type="color" name="color1" value="#0000ff" />
+        <input class="color2" type="color" name="color2" value="#ffc0cb" />
+        <h3>Direction</h3>
+        <div>
+          <input
+            type="radio"
+            value="to right bottom"
+            name="direction"
+            id="right_bottom"
+          />
+          <label for="right_bottom"></label>
+
+          <input type="radio" value="to bottom" name="direction" id="bottom" />
+          <label for="bottom"></label>
+          <input
+            type="radio"
+            value="to left bottom"
+            name="direction"
+            id="left_bottom"
+          />
+          <label for="left_bottom"></label>
+        </div>
+        <div>
+          <input type="radio" value="to right" name="direction" id="right" />
+          <label for="right"></label>
+          <input type="radio" value="to left" name="direction" id="left" />
+          <label for="left"></label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            value="to right top"
+            name="direction"
+            id="right_top"
+          />
+          <label for="right_top"></label>
+          <input type="radio" value="to top" name="direction" id="top" />
+          <label for="top"></label>
+          <input
+            type="radio"
+            value="to left top"
+            name="direction"
+            id="left_top"
+            checked
+          />
+          <label for="left_top"></label>
+        </div>
+      </form>
+      <footer>
+        <h3>CSS code:</h3>
+        <p>
+          linear-gradient (to left top, rgb(0, 136, 255), rgb(0, 238, 255));
+        </p>
+      </footer>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
