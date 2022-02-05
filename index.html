@@ -10,11 +10,11 @@
   <body>
     <div class="container">
       <h1>Linear gradient generator</h1>
-      <h3>Colors</h3>
+      <h2>Colors</h2>
       <form>
         <input class="color1" type="color" name="color1" value="#0000ff" />
         <input class="color2" type="color" name="color2" value="#ffc0cb" />
-        <h3>Direction</h3>
+        <h2>Direction</h2>
         <div>
           <input
             type="radio"
@@ -37,6 +37,9 @@
         <div>
           <input type="radio" value="to right" name="direction" id="right" />
           <label for="right"></label>
+          <input type="radio" value="label_center" id="center" />
+          <label for="center"></label>
+
           <input type="radio" value="to left" name="direction" id="left" />
           <label for="left"></label>
         </div>
@@ -61,7 +64,7 @@
         </div>
       </form>
       <footer>
-        <h3>CSS code:</h3>
+        <h2>CSS code:</h2>
         <p>
           linear-gradient (to left top, rgb(0, 136, 255), rgb(0, 238, 255));
         </p>
